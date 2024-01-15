@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height:100%;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(65, 37, 5, 0.45);
+}
+
+.card-img {
+    padding: 12px;
+    cursor: pointer;
+    object-fit: cover;
+    max-height: 250px;
+    width:100%;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #412505;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #412505;
+
+}
+
+.email-icon {
+    width: 40px;
+    height: auto;
+}
+
+.badge-pill {
+    all: unset;
+    cursor: pointer;
+    width: auto;
+    background: #eabd58;
+    color: #412505;
+    box-shadow: 0 1px 5px rgba(65, 37, 5, 0.45);
+    border-radius: 25px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,15 @@
+.search-bar {
+    position: relative;
+}
+
+.search-icon {
+    all: unset;
+    position: absolute;
+    top: 7px;
+    right: 25px;
+}
+
+.search-icon img {
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,40 @@
+.title {
+    color: #412505;
+}
+
+.form-control:focus {
+    border-color: #412505;
+    box-shadow: 0 1px 5px rgba(65, 37, 5, 0.45);
+}
+
+.col-form-label {
+    color: #412505;
+}
+
+.form-check-input:checked{
+    background-color: #412505;
+    border-color: #412505;
+}
+
+.form-check-input:focus {
+    border-color: #412505;
+    box-shadow: 0 1px 5px rgba(65, 37, 5, 0.45);
+}
+
+
+.form-control,
+.form-control:focus {
+    border-color: #412505;
+    color: #412505;
+}
+
+.form-control::placeholder {
+    color: rgba(65, 37, 5, 0.45);
+}
+
+
+.form-control:disabled {
+    background-color: rgba(65, 37, 5, 0.3);
+    border-color: rgba(65, 37, 5, 0.3);
+    color: #412505;
+}

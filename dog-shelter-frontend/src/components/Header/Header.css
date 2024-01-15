@@ -1,0 +1,44 @@
+.logo {
+    height: 24px;
+    width: auto;
+    margin-right: 16px;
+}
+
+.bg-brown {
+    background-color: #eabd58;
+    color: #f5deb3;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+    color: #412505;
+    font-size: 1.4rem;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-outline-warning,
+.btn-outline-warning:active,
+.btn-outline-warning:visited,
+.btn-outline-warning:focus {
+    color: #412505;
+    border-color: #412505;
+    margin-top: 0.2rem;
+}
+
+.btn-outline-warning:hover {
+    color: #d9ad76;
+    background-color: #412505d1;
+    border-color: #412505d1;
+}
